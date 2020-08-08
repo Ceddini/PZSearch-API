@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 
-const animals = require('./animals.json');
+const animals = require('./animals.min.json');
 
 let app = express();
 
