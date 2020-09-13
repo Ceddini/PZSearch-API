@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "minify": "copy animals.json animals.min.json && minify-json animals.min.json"
+    "minify": "npm run minify-animals && npm run minify-dlcs",
+    "minify-animals": "copy animals.json animals.min.json && minify-json animals.min.json",
+    "minify-dlcs": "copy dlcs.json dlcs.min.json && minify-json dlcs.min.json"
   },
   "keywords": [
     "PlanetZoo",
