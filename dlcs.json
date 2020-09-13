@@ -1,18 +1,22 @@
 [
   {
+    "id": "deluxe",
     "name": "Deluxe",
     "color": "gold"
   },
   {
+    "id": "arctic_pack",
     "name": "Arctic Pack",
     "color": "#9bf0ff"
   },
   {
+    "id": "south_america_pack",
     "name": "South America Pack",
     "color": "#c27620",
     "text": "white"
   },
   {
+    "id": "australia_pack",
     "name": "Australia Pack",
     "color": "#fc6603",
     "text": "white"
